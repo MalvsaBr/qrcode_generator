@@ -13,7 +13,6 @@ class Interface():
 
 ctk.set_appearance_mode('light')
 app = ctk.CTk()
-app.iconbitmap('logo.ico')
 app.geometry("400x500")
 app.title('Gerador de QRCode')
 app.resizable(False, False)
